@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <h1 class="label">user login</h1>
+            <form class="login_form"   action="home.html"  method="post" name="form" onsubmit="return validated()" >
+                <div class="font ">Username</div>
+                <input  type="text" name="username">
+                <div id="username_error">invalid username</div>
+                <div class="font font1">Email or Phone</div>
+                <input  type="text" name="email">
+                <div id="email_error">please fill up your email or phone</div>
+                <div class="font font2">Password</div>
+                <input  type="password" name="password">
+                <div id="pass_error">please fill up your password</div>
+                <div class="font font3">confirmPassword</div>
+                <input  type="confirmpassword" name="confirmpassword">
+                <div id="confirmpassword_error">please correct fill up your password</div>
+    <button type="submit" >login</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
